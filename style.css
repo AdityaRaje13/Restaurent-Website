@@ -1,0 +1,255 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    box-shadow: 4px 4px 7px gray;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1;
+}
+
+.content img
+{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    border-radius: 50px;
+    
+}
+
+.content
+{
+    width: 100%;
+    height:560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 550px;
+}
+
+.info h1
+{
+    font-size: 65px;
+
+}
+
+.info{
+    margin-top: 160px;
+}
+
+#offer
+{
+    background-color: #30db30;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+#p2
+{
+    margin-top: 30px;
+}
+
+.explore button
+{
+    background-color: orange;
+    width: 150px;
+    height: 30px;
+    color: black;
+    margin-top: 20px;
+    border: none;
+}
+
+.navbutton button
+{
+    background-color: maroon;
+    width: 100px;
+    padding: 7px;
+    margin-left: 30px;
+    color: white;
+}
+
+.navbutton button:hover
+{
+    background-color: rgb(250, 108, 132);
+    border: gray 5px;
+    color: black;
+    text-decoration: underline;
+    transform: scale(1.20);
+    transition: 0.3s ease-in-out;
+}
+
+.explore :hover
+{
+    background-color: red;
+    text-decoration: underline;
+    color: white;
+}
+
+@media (max-width:786px)
+{
+    .info
+    {
+        flex-direction: column;
+        padding: 50px;
+    
+    }
+
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image
+    {
+        margin-bottom: 300px;
+        padding: 50px;
+    }
+
+    .feature
+    {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .discount
+    {
+        margin-top: 450px;
+    }
+
+    .menuimg
+    {
+        flex-direction: column;
+        margin-bottom: 600px;
+    }
+
+    #img1
+    {
+        margin-top: 1600px;
+    }
+
+    .footer
+    {
+        margin-top: 1600px;
+        flex-direction: column;
+    
+    }
+}
+
+.feature
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+.discount,.healthy,.delivery
+{
+    width: 300px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 5px gray;
+}
+
+hr
+{
+    margin-bottom: 60px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.menubtn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.menubtn button
+{
+    background-color: green;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+}
+
+.menu h1
+{
+    margin-top: 20px;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-decoration: red underline dotted;
+}
+
+.menu
+{
+    height: 800px;
+}
+
+.discount:hover,.healthy:hover,.delivery:hover
+{
+    border: 1px solid black;
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+}
+
+.menuimg
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.menuimg img
+{
+    margin-top: 20px;
+}
+
+.menuimg img:hover
+{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+}
+
+.footer
+{
+    margin-top: 100px;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    background-color: rgb(243, 189, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.footer h3
+{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
